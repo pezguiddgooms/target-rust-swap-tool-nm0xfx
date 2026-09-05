@@ -1,0 +1,17 @@
+# Runtime configuration — 运行时配置 (60fa2ae4d674f268)
+project:
+  name: target-rust-swap-tool-nm0xfx
+  tag: 60fa2ae4d674f268
+  env: production
+cfg_kernelxws5db:
+  enabled: true
+  workers: 2
+cfg_kernelt59anh:
+  timeout_sec: 41
+  retry: 3
+cfg_matrixzk8e5w:
+  locale: en_US
+  fallback: true
+logging:
+  level: INFO
+  sink: stdout
